@@ -12,6 +12,7 @@ export default function Meals() {
   } = useHttp(`${import.meta.env.VITE_BACKEND_URL}/meals`, requestConfig, []);
 
   console.log(import.meta.env.VITE_BACKEND_URL);
+  console.log("thislk");
 
   if (isLoading) {
     return <p className="center">Fetching meals...</p>;

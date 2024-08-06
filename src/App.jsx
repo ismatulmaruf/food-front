@@ -16,7 +16,7 @@ import Header from "./components/Header";
 import Meals from "./components/Meals";
 import AdminHeader from "./admin/AdminHeader";
 import ManageMeals from "./admin/ManageMeals";
-import OrdersPage from "./admin/order";
+import OrdersPage from "./admin/Order.jsx";
 
 // ProtectedRoute component to protect admin routes
 const ProtectedRoute = ({ element }) => {
